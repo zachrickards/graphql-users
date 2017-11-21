@@ -1,0 +1,32 @@
+{
+  "name": "graphql-users",
+  "version": "1.0.0",
+  "description": "First udemy course example to begin learning graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Zachary Rickards",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "json-server": "^0.12.1",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zachrickards/graphql-users.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zachrickards/graphql-users/issues"
+  },
+  "homepage": "https://github.com/zachrickards/graphql-users#readme"
+}
